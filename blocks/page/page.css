@@ -1,0 +1,14 @@
+.page {
+  background: rgba(42, 44, 47, 1);
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 100%;
+  box-sizing: content-box;
+}
+
+
+* {
+  border: 1px solid pink;
+}

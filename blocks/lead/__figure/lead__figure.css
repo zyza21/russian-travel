@@ -1,0 +1,39 @@
+.lead__figure {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 148px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1224px) {
+  .lead__figure {
+    box-sizing: content-box;
+    width: 900px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__figure {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .lead__figure {
+    box-sizing: content-box;
+    width: 768px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__figure {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
+
