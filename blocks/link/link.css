@@ -1,7 +1,7 @@
 .link {
   color: #FFFFFF;
   opacity: 1;
-  transition: opacity 0.2s liner 0.1s;
+  transition: opacity 0.2s linear 0.1s;
   text-decoration-line: none;
 }
 

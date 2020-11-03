@@ -4,7 +4,7 @@
   }
 
 
-  @media sceen and (max-width: 1280px) {
+  @media screen and (max-width: 1280px) {
     .block_place_header {
       margin-bottom: calc(58px - ((1280px - 100vw) * (28 / 256)));
     }

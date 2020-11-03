@@ -10,7 +10,7 @@
   align-self: center;
   background-color: #2A2C2F;
   opacity: 0.8;
-  transition: opacity 0.2s liner 0.1s;
+  transition: opacity 0.2s linear 0.1s;
   z-index: 0;
 }
 
