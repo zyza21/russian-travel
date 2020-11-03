@@ -1,21 +1,21 @@
-.block_place_section {
+.block__place_section {
   margin: 0 auto 77px;
   }
 
   @media screen and (max-width: 1024px) {
-    .block_place_section {
+    .block__place_section {
       margin-bottom: calc(77px - ((1024px - 100vw) * (-11 / 448)));
     }
   }
 
   @media screen and (max-width: 768px) {
-    .block_place_section {
+    .block__place_section {
       margin-bottom: calc(88px - ((768px - 100vw) * (28 / 448)));
     }
   }
   
   @media screen and (max-width: 320px) {
-    .block_place_section {
+    .block__place_section {
       margin-bottom: 60px;
     }
   }
