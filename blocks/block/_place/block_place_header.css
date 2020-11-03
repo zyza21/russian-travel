@@ -1,0 +1,28 @@
+.block_place_header {
+  margin: 0 auto 58px;
+  padding-top: 28px;
+  }
+
+
+  @media sceen and (max-width: 1280px) {
+    .block_place_header {
+      margin-bottom: calc(58px - ((1280px - 100vw) * (28 / 256)));
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .block_place_header {
+      margin-bottom: 30px;
+    }
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .block_place_header {
+      padding-top: calc(28px - ((768px - 100vw) * (12 / 448)));
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .block_place_header {
+      padding-top: 16px;
+    }
+  }

@@ -1,0 +1,27 @@
+.cover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1184px;
+  min-height: 740px;
+}
+
+.cover:hover .cover__background {
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover {
+      max-width: calc(1184px - ((1280px - 100vw) * ( 160 / 256)));
+      min-height: calc(740px - ((1280px - 100vw) * (100 / 256)));
+    }
+  }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+      max-width: 100%;
+      min-height: 61vw;
+    }
+  }
+

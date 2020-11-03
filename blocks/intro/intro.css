@@ -1,0 +1,27 @@
+.intro {
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1280px) {
+  .intro {
+    max-width: calc(984px - ((1280px - 100vw) * (56 / 256)));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: calc(928px - ((1024px - 100vw) * (208 / 256)));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: calc(720px - ((768px - 100vw) * (432 / 448)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+  }
+}

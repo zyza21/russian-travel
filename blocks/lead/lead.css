@@ -2,17 +2,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 92px;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1280px) {
+  .lead {
+    max-width: calc(984px - ((1280px - 100vw) * (56 / 256)));
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: calc(928px - ((1024px - 100vw) * (160 / 256)));
+  }
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-    margin-bottom: 88px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .lead {
-    margin-bottom: 64px;
+    max-width: 100%;
   }
 }

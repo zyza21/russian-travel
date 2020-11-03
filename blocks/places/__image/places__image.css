@@ -1,0 +1,7 @@
+.places__image {
+  margin: 0;
+  grid-area: image;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
