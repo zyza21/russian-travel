@@ -11,7 +11,6 @@
 @media screen and (max-width: 1024px) {
   .places__title {
     font-size: calc(72px - ((1024px - 100vw) * (30 / 256)));
-    line-height: 1.1;
   }
 }
 
@@ -26,5 +25,7 @@
   .places__title {
     font-size: 32px;
     line-height: 1.09;
+    max-width: 288px;
+    margin-left: 16px;
   }
 }

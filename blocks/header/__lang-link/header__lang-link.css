@@ -1,6 +1,4 @@
 .header__lang-link {
-  max-width: 30px;
-  min-height: 28px;
   font-size: 24px;
   line-height: 1.17;
   margin-left: 18px;
@@ -10,8 +8,6 @@
 
 @media screen and (max-width: 768px) {
   .header__lang-link {
-    max-width: calc(30px - ((768px - 100vw) * (8 / 448)));
-    min-height: calc(28px - ((768px - 100vw) * (8 / 448)));
     font-size: calc(24px - ((768px - 100vw) * (6 / 448)));
   }
 }
@@ -19,8 +15,6 @@
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    max-width: 22px;
-    min-height: 20px;
     font-size: 18px;
     line-height: 1.17;
   }
